@@ -8,6 +8,7 @@ public class basic {
     //switch statement
     int number =2;
     switch(number){
+      case 1 
     
       default: System.out.println("we wake up");
 
