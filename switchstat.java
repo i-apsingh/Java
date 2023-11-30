@@ -1,7 +1,9 @@
 import java.util.*;
 public class switchstat {
     public static void main (String args[]){
+        //nested switch
 
+        
         // switch statement
         Scanner select = new Scanner(System.in);
         System.out.println("enter day in numbers from 1 to 7");
