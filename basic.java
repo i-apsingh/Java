@@ -10,7 +10,7 @@ public class basic {
     switch(number){
     
       default: System.out.println("we wake up");
-
+    }
     
 
     //ternary operator
