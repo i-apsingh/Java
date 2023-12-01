@@ -2,6 +2,9 @@ import java.util.*;
 public class switchstat {
     public static void main (String args[]){
         //nested switch
+        
+        Scanner 
+        System.out.println("enter rank form 1 to 3");
 
 
         // switch statement
@@ -32,7 +35,8 @@ public class switchstat {
         */
 
         //code2
-
+        
+        /*
         Scanner select = new Scanner (System.in);
         System.out.println(" find treasure in number from 1 to 4");
         int number = select.nextInt();
@@ -50,6 +54,7 @@ public class switchstat {
             default : System.out.println("you are unluckey");
             
         }
+        */
 
         
     }
