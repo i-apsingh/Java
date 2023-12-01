@@ -13,6 +13,7 @@ public class basic {
       default: System.out.println("we wake up");
 
     
+      
 
     //ternary operator
     /* 
