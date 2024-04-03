@@ -2,9 +2,6 @@ import java.util.*;
 public class switchstat {
     public static void main (String args[]){
         //nested switch
-        
-        Scanner 
-        System.out.println("enter rank form 1 to 3");
 
 
         // switch statement
