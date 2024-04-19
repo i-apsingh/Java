@@ -2,6 +2,36 @@ import java.util.*;
 public class loops{
     public static void main(String[] args) {
         
+// nested loop
+/* 
+        for(int line=1; line<=30; line++){
+            for(int star=1; star<=line; star++){
+                System.out.print('*');
+            }
+            System.out.println();
+        }
+*/
+// continue statement
+/*
+        for (int i=1; i<=5; i++){
+            if (i==3){
+                continue;
+            }
+            System.out.println(i);
+        }
+        System.out.println("you skin 3 ");
+*/
+// break statement
+/* 
+        for(int i=1; i<=5; i++){
+            if(i==3){
+                break;
+            }
+            System.out.println(i);
+        }
+        System.out.println("I'm out from the loop");
+*/
+
 // do while loop
 /* 
         int counter =1;
