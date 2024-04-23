@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class arrays {
-    public static void main (String args[]){
-        System.out.println("apple");
+        public static void main (String args[]){
+
 
 /*
 // input output and updation in array and find length of aaray
