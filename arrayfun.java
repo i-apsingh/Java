@@ -1,5 +1,36 @@
 public class arrayfun {
 
+/*
+// binary search
+    public static int binarysearch(int numbers[], int key){
+        int start =0, end =numbers.length-1;
+
+        while(start<=end){
+            int mid =(start+end)/2;
+
+            //comparison
+            if (numbers [mid]==key){
+                return mid;
+            }
+            if (numbers[mid]<key){//right of array
+                start=mid+1;
+            }
+            else {//left of array
+                end=mid-1;
+            }
+        }
+        return -1;
+    }
+
+    public static void main(String args[]){
+        int numbers[]={2,4,6,8,10,12,14};
+        int key =10;
+
+        System.out.println("index for key is : "+binarysearch(numbers,key));
+    }
+*/
+
+/*
 //largest numbers from the gievn array
     public static int getlargest(int numbers[]){
         int largest =Integer.MIN_VALUE; // -infinity
@@ -13,9 +44,10 @@ public class arrayfun {
     }
 
     public static void main (String args[]){
-        int numbers[]={1,2,6,3,5};
+        int numbers[]={1,2,6,3,5,100};
         System.out.println("largest value is : "+getlargest(numbers));
     }
+*/
 
 /* 
 // linear search
