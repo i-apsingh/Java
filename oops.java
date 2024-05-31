@@ -1,13 +1,50 @@
+
+/* 
+// interfaces 
+
+interface chessplayer{
+    void moves();
+}
+
+class queen implements chessplayer{
+    public void moves(){
+        System.out.println("up down left right diagonal and in all direction");
+    }
+}
+
+class rook implements chessplayer{
+    public void moves(){
+        System.out.println("up down left right ");
+    }
+}
+
+class king implements chessplayer{
+    public void moves(){
+        System.out.println("up down left right");
+    }
+}
+
+public class oops {
+    public static void main(String[] args) {
+        queen q = new queen();
+        q.moves();
+    }
+}
+*/
+
 // abstraction
+/* 
 public class oops {
     public static void main(String[] args) {
         horse h = new horse();
         h.eat();
         h.walk();
+        System.out.println(h.color);
 
-        chicken c = new chicken();
-        c.eat();
-        c.walk();
+        // chicken c = new chicken();
+        // c.eat();
+        // c.walk();
+
     }
 }
 abstract class animal {
@@ -16,7 +53,7 @@ abstract class animal {
     animal(){
         color = "brown";
     }
-    
+
     // non - abstract function/method
     void eat(){
         System.out.println("animal eats");
@@ -41,6 +78,7 @@ class chicken extends animal{
         System.out.println("walks on 2 legs");
     }
 }
+*/
 
 // funtion overriding
 /* 
