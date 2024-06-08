@@ -1,3 +1,58 @@
+/* 
+// use of Super keyword
+// super constructor called automatically when you dont use super();
+public class oops{
+    public static void main(String[] args) {
+        horse h = new horse();
+    }
+}
+
+class animal{
+    animal(){  // immediate parent class
+        System.out.println("animal constructor is called");
+    }
+}
+
+class horse extends animal{
+    horse(){
+        super();
+        System.out.println("horse constructor is called");
+    }
+}
+*/
+
+/* 
+// use of Static Keyword 
+public class oops{
+    public static void main(String args[]){
+        Student s1 = new Student();
+        s1.schoolname ="JMV";
+
+        Student s3 = new Student();
+        s3.schoolname = "apple";
+
+        System.out.println(s3.schoolname);
+
+        Student s2 = new Student();
+        System.out.println(s2.schoolname);
+
+    }
+}
+
+class Student {
+    String name;
+    int roll;
+    
+    static String schoolname;
+
+    void setname(String name){ // function getter
+        this.name=name;
+    }
+    String getname(){ // function setter
+        return this.name;
+    }
+}
+*/
 
 /* 
 // interfaces 
